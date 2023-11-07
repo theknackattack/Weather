@@ -1,3 +1,4 @@
+#include <stdint.h>
 #include <stdio.h>
 #include <string.h>
 
@@ -11,7 +12,7 @@
 void fileOpen(void);
 
 int main(int argc, const char* argv[]) {
-    SVR(60, 1.00, true);
+    SVR(60, 0, false);
     return 0;
 }
 
@@ -27,12 +28,15 @@ void fileOpen(void) {
             names[i][strcspn(names[i], "\n")] = '\0'; // Remove the newline character from each name.
             i++;
         }
-
         fclose(file); // Close the file.
 
         // Display the names stored in the array.
         for (int j = 0; j < i; j++) {
-            printf("Name[%d] = %s\n", j + 1, names[j]);
+            printf("Name[");
+            if (j < 9) {
+                printf("0");
+            }
+            printf("%d] = %s\n", j + 1, names[j]);
         }
     }
 }

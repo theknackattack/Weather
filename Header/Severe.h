@@ -3,7 +3,6 @@
 
 #include <stdbool.h>
 
-void FFW(void);
 bool SVR(int wind, double hail, bool tornado);
 void TOR(void);
 

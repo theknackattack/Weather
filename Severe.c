@@ -2,12 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 
+#include "Header/Date.h"
 #include "Header/Severe.h"
 #include "Header/Syntax.h"
 
-void FFW(void) {
-
-}
 
 bool SVR(int wind, double hail, bool tornado) {
     if ((wind < 58) && (hail < 1.00)) {
@@ -44,7 +42,8 @@ bool SVR(int wind, double hail, bool tornado) {
     if (wind >= 80 || hail >= 2.00) printf("BULLETIN - EAS ACTIVATION REQUESTED\n");
     else printf("BULLETIN - IMMEDIATE BROADCAST REQUESTED\n");
 
-    printf("Severe Thunderstorm Warning\nNational Weather Service Boston/Norton MA\n252 PM EDT Fri Sep 8 2023\n\n");
+    printf("Severe Thunderstorm Warning\nNational Weather Service Boston/Norton MA\n");
+    printDateAndTime();
     printf("The National Weather Service in Boston/Norton MA has issued a\n\n");
     printf("* Severe Thunderstorm Warning for...\n  Essex County in northeastern Massachusetts...\n  North central Norfolk County in eastern Massachusetts...\n  Suffolk County in eastern Massachusetts...\n  Middlesex County in northeastern Massachusetts...\n  Northern Plymouth County in southeastern Massachusetts...\n\n");
     printf("* Until 345 PM EDT.\n\n");
