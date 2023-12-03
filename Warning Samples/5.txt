@@ -1,0 +1,61 @@
+
+397
+WUUS54 KFWD 130328
+SVRFWD
+TXC113-139-130430-
+/O.NEW.KFWD.SV.W.0372.230613T0328Z-230613T0430Z/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Severe Thunderstorm Warning
+National Weather Service Fort Worth TX
+1028 PM CDT Mon Jun 12 2023
+
+The National Weather Service in Fort Worth has issued a
+
+* Severe Thunderstorm Warning for...
+  Northwestern Ellis County in north central Texas...
+  Southern Dallas County in north central Texas...
+
+* Until 1130 PM CDT.
+
+* At 1027 PM CDT, a severe thunderstorm was located near Mansfield,
+  moving northeast at 50 mph.
+
+  THIS IS A DESTRUCTIVE STORM FOR MANSFIELD...SOUTH ARLINGTON...
+  SOUTH GRAND PRAIRIE.
+
+  HAZARD...Baseball size hail.
+
+  SOURCE...Radar indicated.
+
+  IMPACT...People and animals outdoors will be severely injured.
+           Expect shattered windows, extensive damage to roofs,
+           siding, and vehicles.
+
+* Locations impacted include...
+  Dallas, Grand Prairie, Mesquite, Mansfield, Desoto, Cedar Hill,
+  Duncanville, Lancaster, Waxahachie, Balch Springs, Midlothian,
+  Seagoville, Glenn Heights, Red Oak, Hutchins, Cockrell Hill,
+  Sunnyvale, Wilmer, Ovilla and Venus.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+This is a dangerous storm. Prepare immediately for large destructive
+hail capable of producing significant damage. Move to shelter inside
+a sturdy building,  and stay away from windows!
+
+&&
+
+LAT...LON 3253 9653 3239 9709 3255 9709 3255 9704
+      3272 9704 3275 9703 3277 9652
+TIME...MOT...LOC 0327Z 241DEG 43KT 3259 9706
+
+THUNDERSTORM DAMAGE THREAT...DESTRUCTIVE
+HAIL THREAT...RADAR INDICATED
+MAX HAIL SIZE...2.75 IN
+WIND THREAT...RADAR INDICATED
+MAX WIND GUST...<50 MPH
+
+$$
+
+Dunn

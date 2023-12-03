@@ -1,0 +1,61 @@
+
+001
+WUUS54 KFWD 131920
+SVRFWD
+TXC257-467-132015-
+/O.NEW.KFWD.SV.W.0386.230613T1920Z-230613T2015Z/
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Severe Thunderstorm Warning
+National Weather Service Fort Worth TX
+220 PM CDT Tue Jun 13 2023
+
+The National Weather Service in Fort Worth has issued a
+
+* Severe Thunderstorm Warning for...
+  Kaufman County in north central Texas...
+  Northwestern Van Zandt County in north central Texas...
+
+* Until 315 PM CDT.
+
+* At 219 PM CDT, a severe thunderstorm was located near Mesquite,
+  moving east at 40 mph.
+
+  HAZARD...Golf ball size hail.
+
+  SOURCE...Trained weather spotters.
+
+  IMPACT...People and animals outdoors will be injured. Expect
+           damage to roofs, siding, windows, and vehicles.
+
+* Locations impacted include...
+  Terrell, Seagoville, Forney, Kaufman, Canton, Wills Point,
+  Crandall, Combine, Talty, Edgewood, New Terrell City Lake, Lake
+  Tawakoni, Myrtle Springs, Elmo, Oak Grove, Post Oak Bend City, Oak
+  Ridge, Ola, Alsa and Jackson.
+
+This includes Interstate 20 between mile markers 486 and 523.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+This storm has a history of producing large hail. SEEK SHELTER NOW
+inside a sturdy structure and stay away from windows!
+
+Heavy rainfall is occurring with this storm, and may lead to flash
+flooding. Do not drive your vehicle through flooded roadways.
+
+&&
+
+LAT...LON 3247 9591 3257 9652 3281 9652 3284 9594
+      3266 9588
+TIME...MOT...LOC 1919Z 276DEG 36KT 3273 9655
+
+THUNDERSTORM DAMAGE THREAT...CONSIDERABLE
+HAIL THREAT...OBSERVED
+MAX HAIL SIZE...1.75 IN
+WIND THREAT...RADAR INDICATED
+MAX WIND GUST...<50 MPH
+
+$$
+
+Stalley

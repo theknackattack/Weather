@@ -1,0 +1,57 @@
+
+164
+WUUS54 KFWD 120229
+SVRFWD
+TXC085-231-120330-
+/O.NEW.KFWD.SV.W.0354.230612T0229Z-230612T0330Z/
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Severe Thunderstorm Warning
+National Weather Service Fort Worth TX
+929 PM CDT Sun Jun 11 2023
+
+The National Weather Service in Fort Worth has issued a
+
+* Severe Thunderstorm Warning for...
+  Central Hunt County in north central Texas...
+  Southeastern Collin County in north central Texas...
+
+* Until 1030 PM CDT.
+
+* At 929 PM CDT, a severe thunderstorm was located near Greenville
+  City Lakes, or near Greenville, moving east at 30 mph.
+
+  HAZARD...60 mph wind gusts and quarter size hail.
+
+  SOURCE...Radar indicated.
+
+  IMPACT...Hail damage to vehicles is expected. Expect wind damage
+           to roofs, siding, and trees.
+
+* Locations impacted include...
+  Wylie, Greenville, Commerce, Royse City, Princeton, Farmersville,
+  Caddo Mills, Campbell, Merit, Greenville City Lakes, Greenville
+  Club Lake, Lake Tawakoni, Lavon, Nevada, Josephine, Lone Oak,
+  Neylandville, Kingston, Cash and Branch.
+
+This includes Interstate 30 between mile markers 79 and 109.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+For your protection get inside a sturdy structure and stay away from
+windows.
+
+&&
+
+LAT...LON 3298 9652 3321 9652 3326 9629 3324 9586
+      3298 9586
+TIME...MOT...LOC 0229Z 263DEG 26KT 3316 9619
+
+HAIL THREAT...RADAR INDICATED
+MAX HAIL SIZE...1.00 IN
+WIND THREAT...RADAR INDICATED
+MAX WIND GUST...60 MPH
+
+$$
+
+Reeves

@@ -1,0 +1,58 @@
+
+722
+WUUS54 KFWD 120226
+SVRFWD
+TXC251-120330-
+/O.NEW.KFWD.SV.W.0353.230612T0226Z-230612T0330Z/
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Severe Thunderstorm Warning
+National Weather Service Fort Worth TX
+926 PM CDT Sun Jun 11 2023
+
+The National Weather Service in Fort Worth has issued a
+
+* Severe Thunderstorm Warning for...
+  Johnson County in north central Texas...
+
+* Until 1030 PM CDT.
+
+* At 926 PM CDT, a severe thunderstorm was located near Joshua,
+  moving east at 25 mph.
+
+  HAZARD...Ping pong ball size hail and 60 mph wind gusts.
+
+  SOURCE...Radar indicated.
+
+  IMPACT...People and animals outdoors will be injured. Expect hail
+           damage to roofs, siding, windows, and vehicles. Expect
+           wind damage to roofs, siding, and trees.
+
+* Locations impacted include...
+  Mansfield, Burleson, Cleburne, Keene, Joshua, Alvarado, Venus,
+  Grandview, Godley, Cross Timber, Cleburne State Park, Lake Pat
+  Cleburne, Parker, Rio Vista, Cresson, Briaroaks, Coyote Flats, Sand
+  Flat, Egan and Lillian.
+
+This includes Interstate 35W between mile markers 14 and 37.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+For your protection get inside a sturdy structure and stay away from
+windows.
+
+&&
+
+LAT...LON 3255 9709 3226 9709 3218 9747 3217 9747
+      3216 9751 3213 9751 3215 9757 3218 9757
+      3218 9760 3220 9759 3220 9761 3255 9761
+TIME...MOT...LOC 0226Z 292DEG 21KT 3250 9745
+
+HAIL THREAT...RADAR INDICATED
+MAX HAIL SIZE...1.50 IN
+WIND THREAT...RADAR INDICATED
+MAX WIND GUST...60 MPH
+
+$$
+
+Reeves

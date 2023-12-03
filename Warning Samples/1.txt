@@ -1,0 +1,57 @@
+
+682
+WUUS54 KFWD 120216
+SVRFWD
+TXC349-120245-
+/O.NEW.KFWD.SV.W.0352.230612T0216Z-230612T0245Z/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Severe Thunderstorm Warning
+National Weather Service Fort Worth TX
+916 PM CDT Sun Jun 11 2023
+
+The National Weather Service in Fort Worth has issued a
+
+* Severe Thunderstorm Warning for...
+  Central Navarro County in north central Texas...
+
+* Until 945 PM CDT.
+
+* At 916 PM CDT, a severe thunderstorm was located near Barry, or 9
+  miles northwest of Corsicana, moving southeast at 45 mph.
+
+  THIS IS A DESTRUCTIVE STORM FOR EMHOUSE AND CORSICANA.
+
+  HAZARD...80 mph wind gusts.
+
+  SOURCE...Radar indicated.
+
+  IMPACT...Flying debris will be dangerous to those caught without
+           shelter. Mobile homes will be heavily damaged. Expect
+           considerable damage to roofs, windows, and vehicles.
+           Extensive tree damage and power outages are likely.
+
+* Locations impacted include...
+  Corsicana, Barry, Rice, Retreat, Oak Valley, Emhouse and Roane.
+
+This includes Interstate 45 between mile markers 230 and 239.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+For your protection get inside a sturdy structure and stay away from
+windows.
+
+&&
+
+LAT...LON 3217 9628 3200 9657 3214 9676 3224 9656
+TIME...MOT...LOC 0216Z 300DEG 39KT 3216 9661
+
+THUNDERSTORM DAMAGE THREAT...DESTRUCTIVE
+HAIL THREAT...RADAR INDICATED
+MAX HAIL SIZE...<.75 IN
+WIND THREAT...RADAR INDICATED
+MAX WIND GUST...80 MPH
+
+$$
+
+Reeves

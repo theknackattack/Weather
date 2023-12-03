@@ -1,0 +1,57 @@
+
+208
+WUUS54 KFWD 120255
+SVRFWD
+TXC367-439-497-120345-
+/O.NEW.KFWD.SV.W.0357.230612T0255Z-230612T0345Z/
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Severe Thunderstorm Warning
+National Weather Service Fort Worth TX
+955 PM CDT Sun Jun 11 2023
+
+The National Weather Service in Fort Worth has issued a
+
+* Severe Thunderstorm Warning for...
+  Southeastern Wise County in north central Texas...
+  Northeastern Parker County in north central Texas...
+  Northwestern Tarrant County in north central Texas...
+
+* Until 1045 PM CDT.
+
+* At 955 PM CDT, a severe thunderstorm was located over Springtown,
+  or near Briar, moving east at 35 mph. Golf ball size hail was just
+  reported in Springtown.
+
+  HAZARD...Golf ball size hail.
+
+  SOURCE...Radar indicated.
+
+  IMPACT...People and animals outdoors will be injured. Expect
+           damage to roofs, siding, windows, and vehicles.
+
+* Locations impacted include...
+  Fort Worth, Weatherford, Azle, Lake Worth, Eagle Mountain, Briar,
+  Pecan Acres, Willow Park, Reno, Springtown, Hudson Oaks, Pelican
+  Bay, Rhome, Haslet, New Fairview, Aurora, Boyd, Lake Weatherford,
+  Lakeside and Newark.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+For your protection get inside a sturdy structure and stay away from
+windows.
+
+&&
+
+LAT...LON 3282 9740 3276 9776 3305 9778 3313 9739
+TIME...MOT...LOC 0255Z 252DEG 28KT 3298 9764
+
+THUNDERSTORM DAMAGE THREAT...CONSIDERABLE
+HAIL THREAT...RADAR INDICATED
+MAX HAIL SIZE...1.75 IN
+WIND THREAT...RADAR INDICATED
+MAX WIND GUST...<50 MPH
+
+$$
+
+Dunn

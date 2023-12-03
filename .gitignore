@@ -1,0 +1,8 @@
+# Ignore the executable file
+main
+
+# Ignore object files
+*.o
+
+# Ignore Identifier files
+*Zone.Identifier
