@@ -43,7 +43,7 @@ bool SVR(int wind, double hail, bool tornado) {
     else printf("BULLETIN - IMMEDIATE BROADCAST REQUESTED\n");
 
     printf("Severe Thunderstorm Warning\nNational Weather Service Boston/Norton MA\n");
-    printDateAndTime();
+    printCurrentDateAndTime();
     printf("The National Weather Service in Boston/Norton MA has issued a\n\n");
     printf("* Severe Thunderstorm Warning for...\n  Essex County in northeastern Massachusetts...\n  North central Norfolk County in eastern Massachusetts...\n  Suffolk County in eastern Massachusetts...\n  Middlesex County in northeastern Massachusetts...\n  Northern Plymouth County in southeastern Massachusetts...\n\n");
     printf("* Until 345 PM EDT.\n\n");

@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <time.h>
 
-void printDateAndTime(void) {
+#include "Header/Date.h"
+
+void printCurrentDateAndTime(void) {
     time_t rawtime;
     struct tm *timeinfo;
 
@@ -30,5 +32,26 @@ void printDateAndTime(void) {
 
     // Print the day of the month and year
     printf("%d %d\n", timeinfo->tm_mday, 1900 + timeinfo->tm_year);
+    printf("\n");
+}
+
+void printInputDateAndTime(int hour, int minute, bool tzn, int dow, int month, int day, int year) {
+    printf("%d%02d ", hour, minute);
+    printf("%s ", "PM");
+
+    if (tzn) {
+        printf("EDT ");
+    }
+    else {
+        printf("EST ");
+    }
+
+    char* days[] = { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
+    printf("%s ", days[4]);
+
+    char* months[] = {"", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
+    printf("%s ", months[12]);
+
+    printf("%d %d\n", 14, 2023);
     printf("\n");
 }
