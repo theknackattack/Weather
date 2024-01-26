@@ -1,3 +1,4 @@
+#include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -14,30 +15,16 @@ bool SVR(int wind, double hail, bool tornado) {
     }
     
     char* hailType;
-    if (wind >= 58) {
-        if (hail == 0.75) hailType = "penny size";
-        else if (hail == 0.88) hailType = "nickel size";
-        else if (hail == 1.00) hailType = "quarter size";
-        else if (hail == 1.25) hailType = "half dollar size";
-        else if (hail == 1.50) hailType = "ping pong ball size";
-        else if (hail == 1.75) hailType = "golf ball size";
-        else if (hail == 2.00) hailType = "two inch";
-        else if (hail == 2.50) hailType = "tennis ball size";
-        else if (hail == 2.75) hailType = "baseball size";
-
-    }
-    else {
-        if (hail == 0.75) hailType = "Penny size";
-        else if (hail == 0.88) hailType = "Nickel size";
-        else if (hail == 1.00) hailType = "Quarter size";
-        else if (hail == 1.25) hailType = "Half dollar size";
-        else if (hail == 1.50) hailType = "Ping pong ball size";
-        else if (hail == 1.75) hailType = "Golf ball size";
-        else if (hail == 2.00) hailType = "Two inch";
-        else if (hail == 2.50) hailType = "Tennis ball size";
-        else if (hail == 2.75) hailType = "Baseball size";
-
-    }
+    if (hail == 0.75) hailType = "penny size";
+    else if (hail == 0.88) hailType = "nickel size";
+    else if (hail == 1.00) hailType = "quarter size";
+    else if (hail == 1.25) hailType = "half dollar size";
+    else if (hail == 1.50) hailType = "ping pong ball size";
+    else if (hail == 1.75) hailType = "golf ball size";
+    else if (hail == 2.00) hailType = "two inch";
+    else if (hail == 2.50) hailType = "tennis ball size";
+    else if (hail == 2.75) hailType = "baseball size";
+    else { printf("Encountered an error with the hail size.\n"); return false; }    
 
     if (wind >= 80 || hail >= 2.00) printf("BULLETIN - EAS ACTIVATION REQUESTED\n");
     else printf("BULLETIN - IMMEDIATE BROADCAST REQUESTED\n");
@@ -51,7 +38,7 @@ bool SVR(int wind, double hail, bool tornado) {
 
     if (wind >= 80 || hail >= 2.75) printf("  THIS IS A VERY DESTRUCTIVE STORM\n\n");
 
-    if (wind < 58) printf("  HAZARD...%s hail.\n\n", hailType);
+    if (wind < 58) printf("  HAZARD...%c%s hail.\n\n", toupper(hailType[0]), hailType + 1);
     else if (hail < 0.75) printf("  HAZARD...%d mph wind gusts.\n\n", wind);
     else printf("  HAZARD...%d mph wind gusts and %s hail.\n\n", wind, hailType);
 
@@ -61,7 +48,7 @@ bool SVR(int wind, double hail, bool tornado) {
     if (wind <= 58 && hail == 1.00) impactType = "  IMPACT...Minor hail damage to vehicles is possible.\n\n";
     else if (wind == 60 && hail <= 0.75) impactType = "  IMPACT...Expect damage to trees and power lines.\n\n";
     else if ((wind == 60 && hail == 1.00) || (wind == 60 && hail == 1.25)) impactType = "  IMPACT...Hail damage to vehicles is expected. Expect wind damage\n           to roofs, siding, and trees.\n\n";
-    else impactType = "IMPACT...People and animals outdoors will be injured. Expect hail damage to roofs, siding, windows, and vehicles. Expect wind damage to roofs, siding, and trees.";
+    else impactType = "  IMPACT...People and animals outdoors will be injured. Expect hail damage to roofs, siding, windows, and vehicles. Expect wind damage to roofs, siding, and trees.";
 
     printf("%s", impactType);
     printf("PRECAUTIONARY/PREPARDNESS ACTIONS...\n\n");
