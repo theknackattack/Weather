@@ -4,11 +4,10 @@
 #include <string.h>
 
 #include "Header/Date.h"
-#include "Header/Severe.h"
+#include "Header/SVR.h"
 #include "Header/Syntax.h"
 
-
-bool SVR(int wind, double hail, bool tornado) {
+bool SVR(int wind, double hail, bool tornado, bool time) {
     if ((wind < 58) && (hail < 1.00)) {
         printf("Failed to meet the criteria of issuing a Severe Thunderstorm Warning.\n");
         return false;
@@ -24,13 +23,15 @@ bool SVR(int wind, double hail, bool tornado) {
     else if (hail == 2.00) hailType = "two inch";
     else if (hail == 2.50) hailType = "tennis ball size";
     else if (hail == 2.75) hailType = "baseball size";
+    else if (hail == 3.00) hailType = "three inch";
     else { printf("Encountered an error with the hail size.\n"); return false; }    
 
     if (wind >= 80 || hail >= 2.00) printf("BULLETIN - EAS ACTIVATION REQUESTED\n");
     else printf("BULLETIN - IMMEDIATE BROADCAST REQUESTED\n");
 
     printf("Severe Thunderstorm Warning\nNational Weather Service Boston/Norton MA\n");
-    printCurrentDateAndTime();
+    if (time) { printCurrentDateAndTime(); }
+    else { printInputDateAndTime(1, 59, true, 4, 1, 31, 2024); }
     printf("The National Weather Service in Boston/Norton MA has issued a\n\n");
     printf("* Severe Thunderstorm Warning for...\n  Essex County in northeastern Massachusetts...\n  North central Norfolk County in eastern Massachusetts...\n  Suffolk County in eastern Massachusetts...\n  Middlesex County in northeastern Massachusetts...\n  Northern Plymouth County in southeastern Massachusetts...\n\n");
     printf("* Until 345 PM EDT.\n\n");
@@ -73,15 +74,3 @@ bool SVR(int wind, double hail, bool tornado) {
     return true;
 }
 
-void TOR(void) {
-    char* MESSAGE = (char*)malloc(sizeof(char) * 100);
-    if (MESSAGE == NULL) {
-        errorMessage(2);
-    }
-
-    char string[] = "BULLETIN - EAS ACTIVATION REQUESTED\nTornado Warning\nNational Weather Service\n";
-    strcpy(MESSAGE, string);
-    printf("%s\n", MESSAGE);
-
-    free(MESSAGE);
-}

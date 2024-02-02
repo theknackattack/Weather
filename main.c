@@ -4,7 +4,7 @@
 #include <string.h>
 
 #include "Header/Date.h"
-#include "Header/Severe.h"
+#include "Header/SVR.h"
 
 #define MAX_NAME_LENGTH 256
 #define MAX_NAMES 100
@@ -14,7 +14,7 @@ void fileOpen(void);
 int main(int argc, const char* argv[]) {
     //printCurrentDateAndTime();
     //printInputDateAndTime(4, 4, false, 4, 12, 14, 2023);
-    SVR(0, 1.00, false);
+    SVR(0, 3.00, false, true);
 
     return 0;
 }
