@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "Header/Winter.h"
+#include "Header/SQW.h"
 
 bool SQW(void) {
     printf("BULLETIN - IMMEDIATE BROADCAST REQUESTED\n");
