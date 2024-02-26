@@ -5,7 +5,6 @@
 
 #include "Header/Date.h"
 #include "Header/SVR.h"
-#include "Header/Syntax.h"
 
 bool SVR(int wind, double hail, bool tornado, bool time) {
     if ((wind < 58) && (hail < 1.00)) {
