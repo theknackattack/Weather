@@ -14,7 +14,7 @@ void fileOpen(void);
 int main(int argc, const char* argv[]) {
     //printCurrentDateAndTime();
     //printInputDateAndTime(4, 4, false, 4, 12, 14, 2023);
-    SVR(0, 3.00, false, true);
+    SVR(60, 3.00, false, true);
 
     return 0;
 }
